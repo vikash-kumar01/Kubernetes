@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-configmap
+  labels:
+    app: mysql
+data:
+  mysql_binlog_format.cnf: |
+    [mysqld]
+    binlog-format=mixed
+
+

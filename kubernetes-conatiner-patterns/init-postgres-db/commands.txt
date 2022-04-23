@@ -1,0 +1,1 @@
+kubectl run postgres-client --image=postgres:9.6.5 -i -t --rm --restart=Never
